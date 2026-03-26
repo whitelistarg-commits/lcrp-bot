@@ -1,0 +1,14 @@
+{
+  "name": "lcrp-verificaciones-bot",
+  "version": "1.0.0",
+  "description": "Bot de verificaciones para Liberty County RP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node utils/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
