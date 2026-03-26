@@ -5,6 +5,6 @@ module.exports = {
   once: true,
   execute(client) {
     console.log(`✅ Bot conectado como ${client.user.tag}`);
-    client.user.setActivity('Liberty County RP | /verificarme', { type: ActivityType.Watching });
+    client.user.setActivity('/verificarme', { type: ActivityType.Watching });
   },
 };
