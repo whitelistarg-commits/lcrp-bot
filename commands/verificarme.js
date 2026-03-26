@@ -54,7 +54,7 @@ module.exports = {
 
     // Mensaje de bienvenida ephemeral con botón para iniciar
     const embed = new EmbedBuilder()
-      .setTitle('🏙️ Bienvenido al proceso de verificación — Liberty County RP')
+      .setTitle('🏙️ Bienvenido al proceso de verificación — Argentina Roleplay')
       .setColor(0x2B2D31)
       .setDescription(
         `Hola **${interaction.user.username}**, estás a punto de iniciar tu proceso de verificación.\n\n` +
