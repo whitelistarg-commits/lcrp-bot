@@ -54,15 +54,15 @@ module.exports = {
 
     // Mensaje de bienvenida ephemeral con botón para iniciar
     const embed = new EmbedBuilder()
-      .setTitle('🏙️ Bienvenido al proceso de verificación — Argentina Roleplay')
+      .setTitle('🏙️ | Bienvenido al proceso de verificación — Argentina Roleplay')
       .setColor(0x2B2D31)
       .setDescription(
         `Hola **${interaction.user.username}**, estás a punto de iniciar tu proceso de verificación.\n\n` +
-        `📋 **¿En qué consiste?**\n` +
+        `📋 | **¿En qué consiste?**\n` +
         `Responderás **15 preguntas** divididas en **3 secciones**:\n\n` +
-        `> 🪪 **Sección 1** — Identidad personal y Roblox\n` +
-        `> 📖 **Sección 2** — Conocimientos de Roleplay\n` +
-        `> 🎯 **Sección 3** — Conocimientos avanzados e ingreso\n\n` +
+        `> 🪪 | **Sección 1** — Identidad personal y Roblox\n` +
+        `> 📖 | **Sección 2** — Conocimientos de Roleplay\n` +
+        `> 🎯 | **Sección 3** — Conocimientos avanzados e ingreso\n\n` +
         `📌 **Reglas importantes:**\n` +
         `• Responde con honestidad — las respuestas son revisadas por el staff.\n` +
         `• Si eres rechazado, deberás esperar para volver a intentarlo.\n` +
@@ -75,7 +75,7 @@ module.exports = {
     const boton = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
         .setCustomId(`iniciar_verificacion_${userId}`)
-        .setLabel('📋 Iniciar Verificación')
+        .setLabel('📋 | Iniciar Verificación')
         .setStyle(ButtonStyle.Success)
     );
 
